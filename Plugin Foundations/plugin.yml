@@ -1,0 +1,17 @@
+name: PluginName
+author: Developer
+version: 1.0.0-PluginVersion
+api: 3.0.0, 4.0.0
+main: EventfulDeer48\PluginName
+commands:
+  command:
+    description: Description of command goes here.
+    usage: /command
+    aliases: /cmd
+permissions:
+  pluginName.*:
+    default: op
+    children:
+      pluginName.permissionName:
+        default: op
+        description: Description of the permission goes here.
